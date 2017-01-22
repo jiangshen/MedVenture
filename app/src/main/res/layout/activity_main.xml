@@ -13,6 +13,8 @@
 
 
     <android.support.v7.widget.CardView
+        android:onClick="promptSpeechInput"
+        android:clickable="true"
         android:layout_height="384dp"
         app:cardElevation="24dp"
         android:layout_width="288dp"
@@ -26,48 +28,57 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="333dp"
-            android:orientation="vertical"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:gravity="center">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="75dp"
                 android:text="@string/instructions"
+                android:padding="8dp"
                 android:id="@+id/textView"
                 android:layout_gravity="center"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-
                 android:gravity="center_horizontal"
                 android:textColor="#FFF"
-                android:textSize="10pt"/>
+                android:background="#464"
+                android:textSize="22dp"/>
 
-            <Button
-                android:padding="18dp"
-                android:layout_width="172dp"
-                android:layout_height="172dp"
-                android:id="@+id/speakButton"
-                style="@style/Widget.AppCompat.Button.Colored"
-                android:elevation="48dp"
-                android:background="@drawable/ic_mic"
-                android:textSize="34sp"
-                android:onClick="promptSpeechInput"/>
 
-            <TextView
-                android:layout_marginTop="8dp"
-                android:text="Begin"
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:textSize="24dp"
-                android:textColor="#fff"
-                android:gravity="center"
-                android:id="@+id/tv_speak"/>
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+
+
+
+                <Button
+                    android:padding="18dp"
+                    android:layout_width="172dp"
+                    android:layout_height="172dp"
+                    android:id="@+id/speakButton"
+                    android:onClick="promptSpeechInput"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:elevation="48dp"
+                    android:background="@drawable/ic_mic"
+                    android:textSize="34sp"/>
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:text="Begin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="24dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:id="@+id/tv_speak"/>
+
+            </LinearLayout>
 
         </LinearLayout>
 
