@@ -13,8 +13,6 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 import java.util.Locale;
 
@@ -22,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private final int REQ_CODE_SPEECH_INPUT = 1033;
     TextView tvSpeak;
+    DatabaseReference myRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
         tvSpeak = (TextView) findViewById(R.id.tv_speak);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
-
-        myRef.setValue("Hello, World!");
+        myRef = database.getReference("speech_msg");
     }
 
     public void promptSpeechInput(View view) {
@@ -65,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     Log.d("APP", result.get(0));
                     tvSpeak.setText("\""+ result.get(0) + "\"");
+                    myRef.setValue(result.get(0));
                 }
                 break;
             }
