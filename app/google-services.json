@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899182063575",
+    "firebase_url": "https://voicer-ff200.firebaseio.com",
+    "project_id": "voicer-ff200",
+    "storage_bucket": "voicer-ff200.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899182063575:android:2f4d3adb1e3558bc",
+        "android_client_info": {
+          "package_name": "pennappsxv.voicer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899182063575-6456mso19jbm0njpuc220689a56res0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pennappsxv.voicer",
+            "certificate_hash": "A8B57B97C6B0514E30ADA8073EB06ECD016EB3FB"
+          }
+        },
+        {
+          "client_id": "899182063575-5dg4jtmkj6i9hem69p0uv046jj00096b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnckMFi3d_aicsqtCPZ3hJn-xlssWWJhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899182063575-5dg4jtmkj6i9hem69p0uv046jj00096b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
