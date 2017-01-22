@@ -14,7 +14,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,8 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
         tvSpeak = (TextView) findViewById(R.id.tv_speak);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("speech_msg");
+        myRef = FirebaseDatabase.getInstance().getReference();
+
     }
 
     public void promptSpeechInput(View view) {
@@ -60,13 +63,35 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK && null != data) {
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-                    Log.d("APP", result.get(0));
-                    tvSpeak.setText("\""+ result.get(0) + "\"");
-                    myRef.setValue(result.get(0));
+//                    Log.d("APP", result.get(0));
+
+                    String resul = result.get(0);
+
+                    tvSpeak.setText("\""+ resul + "\"");
+                    myRef.child("speech_msg").setValue(resul);
+
+                    if (existsKeyword(resul, "problem")) {
+                        if (existsKeyword(resul, "with my")) {
+                            Log.d("APP", "yep have with");
+                            String splitted[] = resul.trim().split("with my");
+                            myRef.child("problematic_body_part").setValue(splitted[1].trim());
+                        } else {
+                            myRef.child("problematic_body_part").setValue("NULL");
+                        }
+                        myRef.child("is_problem_phrase").setValue(true);
+                    } else {
+                        myRef.child("is_problem_phrase").setValue(false);
+                    }
                 }
                 break;
             }
 
         }
+    }
+
+    private boolean existsKeyword(String text, String s) {
+        Pattern p = Pattern.compile(s);
+        Matcher m = p.matcher(text);
+        return m.find();
     }
 }

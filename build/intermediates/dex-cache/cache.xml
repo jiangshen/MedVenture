@@ -115,8 +115,13 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
+<<<<<<< HEAD
         sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
         <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_15b4f76acec395ff15d198e50ca252734f0901a4/classes.dex" />
+=======
+        sha1="0d35f1c14823e7a6b47bbfa54ca7b9f40bcbea1e">
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eb3f9ccfa56db0319aed2417ee594201b1916959/classes.dex" />
+>>>>>>> 6b9f1d4ac31cac38a628293e06660d6f13a41446
     </item>
     <item
         is-multidex="true"
@@ -169,8 +174,13 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
+<<<<<<< HEAD
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_e26277b9e98fdd22b236a466ccf81378c788bd36/classes.dex" />
+=======
+        sha1="90d3d1ce2db6453e2624919439042c1323298f68">
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2072b8168a14f52eed152b96c58a6289be3264e1/classes.dex" />
+>>>>>>> 6b9f1d4ac31cac38a628293e06660d6f13a41446
     </item>
     <item
         is-multidex="true"
