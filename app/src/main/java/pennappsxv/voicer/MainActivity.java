@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                         myRef.child("is_problem_phrase").setValue(true);
                     } else {
                         myRef.child("is_problem_phrase").setValue(false);
+                        myRef.child("problematic_body_part").setValue("NULL");
                     }
                 }
                 break;
