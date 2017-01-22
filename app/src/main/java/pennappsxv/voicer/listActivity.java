@@ -21,8 +21,17 @@ import org.json.JSONObject;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.nio.charset.Charset;
+import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Map;
+import org.apache.commons.codec.digest.HmacUtils;
+import java.nio.charset.StandardCharsets;
+
+
+import org.apache.commons.codec.binary.Base64;
+
+import javax.crypto.Mac;
 
 
 public class listActivity extends AppCompatActivity {
@@ -56,10 +65,22 @@ public class listActivity extends AppCompatActivity {
         {
             Map<String, String>  params = new HashMap<String, String>();
             try {
-                params.put("Authorization", "Bearer " + URLEncoder.encode(APIKeys.priaid_authservice_url, "UTF-8"));
+                //String raw = "Bearer " + URLEncoder.encode(APIKeys.priaid_authservice_url,"UTF-8");
+                String encode = URLEncoder.encode(APIKeys.priaid_authservice_url,"UTF-8");
+
+
+                byte [] pass = APIKeys.apiMedicPassword.getBytes(StandardCharsets.UTF_8);
+                byte [] encodeURL = URLEncoder.encode(APIKeys.priaid_authservice_url,"UTF-8").getBytes(StandardCharsets.UTF_8);
+                byte[] hash = HmacUtils.hmacMd5(pass, encodeURL);
+                byte[] encoded = Base64.encodeBase64(hash);
+                String bearer_credentials = APIKeys.apiMedicUserName + ":" + encoded.toString();
+                params.put("Authorization", "Bearer " + bearer_credentials);
+
+
             }
             catch(UnsupportedEncodingException e) {
                 Log.d(TAG, "Unsupported encoding");
+
             }
 
 
