@@ -3,6 +3,7 @@ package pennappsxv.voicer;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.speech.RecognizerIntent;
+import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,35 +20,63 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TextToSpeech.OnInitListener {
 
     private final int REQ_CODE_SPEECH_INPUT = 1033;
     TextView tvSpeak;
     DatabaseReference myRef;
+
+    TextToSpeech tts;
+
+    int stage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        stage = 0;
+
+//        Bindings
         tvSpeak = (TextView) findViewById(R.id.tv_speak);
 
+//        Firebase
         myRef = FirebaseDatabase.getInstance().getReference();
+
+        /* TTS */
+        tts = new TextToSpeech(getApplicationContext(), this);
 
     }
 
+    @Override
+    public void onInit(int status) {
+        Log.d("Speech", "OnInit - Status ["+status+"]");
+        if (status == TextToSpeech.SUCCESS) {
+            Log.d("Speech", "Success!");
+            tts.setLanguage(Locale.US);
+        }
+        tts.speak("Welcome, tap the screen to begin", TextToSpeech.QUEUE_FLUSH, null, null);
+    }
+
     public void promptSpeechInput(View view) {
-        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent
-                .LANGUAGE_MODEL_FREE_FORM);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak Now");
-        try {
-            startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
-        } catch (ActivityNotFoundException a) {
-            Toast.makeText(getApplicationContext(),
-                    "Error, not supported",
-                    Toast.LENGTH_SHORT).show();
+
+        if (stage < 1) {
+            tts.speak("What problems are you having? Press the screen and speak to the microphone" +
+                    ".", TextToSpeech.QUEUE_FLUSH, null, null);
+            stage++;
+        } else {
+            Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent
+                    .LANGUAGE_MODEL_FREE_FORM);
+            intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+            intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak Now");
+            try {
+                startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
+            } catch (ActivityNotFoundException a) {
+                Toast.makeText(getApplicationContext(),
+                        "Error, not supported",
+                        Toast.LENGTH_SHORT).show();
+            }
         }
     }
 

@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Voicer</string>
+<<<<<<< HEAD
     <string name="instructions">Tell us what problem you\'re having!</string>
     <string name="title_activity_list">listActivity</string>
+=======
+    <string name="instructions">What problem are you having?</string>
+>>>>>>> 20d6389018a79b6178db88a6deb9ecc3f6105b5d
 </resources>
