@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_6d70e54a0d3c77758b2cd40745b1bea588e5496c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -88,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="674adbacb0242b344e4905e71837f53a273c8caf">
+        sha1="52d88646e0d42561f409a542c3c945964cf0ad03">
         <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2072b8168a14f52eed152b96c58a6289be3264e1/classes.dex" />
     </item>
     <item
@@ -111,12 +120,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_1114110d7b5a3f47e2a4e9b356456c4dc650b032/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/jiangshen/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
         <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta1_f81fab330c3ffdc026b57160d9d24a46975efc94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_fad1f38191414d8e74400ebbb0423d1cb6bc3459/classes.dex" />
     </item>
     <item
         is-multidex="true"

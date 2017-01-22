@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                         "Error, not supported",
                         Toast.LENGTH_SHORT).show();
             }
+            Log.d("fuck", "here!!");
         }
     }
 
