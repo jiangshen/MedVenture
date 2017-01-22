@@ -39,7 +39,6 @@ public class listActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-
     StringRequest postRequest = new StringRequest(
             Request.Method.POST,
             APIKeys.priaid_authservice_url,
