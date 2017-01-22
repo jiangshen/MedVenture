@@ -3,6 +3,7 @@
 
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
         jumboMode="true"
         optimize="true"

@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
     int stage;
 
+    final String[] symDict = {"abdomen", "chest", "head", "hips", "foot", "thigh", "shoulder"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,9 +105,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     String resul = result.get(0);
 
-                    tvSpeak.setText("\""+ resul + "\"");
-
                     if (stage == 1) {
+                        tvSpeak.setText("\""+ resul + "\"");
                         if (existsKeyword(resul, "problems? with my ")) {
                             String split[] = resul.trim().split("with my");
                             myRef.child("PROBLEMATIC_BODY_PART").setValue(WordUtils.capitalize(split[1].trim()));
@@ -123,7 +124,31 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                                     TextToSpeech.QUEUE_FLUSH, null, null);
                         }
                     } else if (stage == 2) {
+                        int count = 0;
+                        String words = "";
+                        for (String s : symDict) {
+                            if (existsKeyword(resul, s)) {
+                                count++;
+                                words += (s + " ");
+                            }
+                        }
+                        if (count > 0) {
+                            words = words.trim();
+                            resul = words;
+                            tts.speak("Thank you",
+                                    TextToSpeech.QUEUE_FLUSH, null, null);
+                            Intent myIntent = new Intent(this, listActivity.class);
+                            myIntent.putExtra("body_part", words);
+                            startActivity(myIntent);
+                        } else {
+                            myRef.child("SYMPTOMS").setValue("NULL");
+                            tvTitle.setText("Try Again");
+                            tvTitle.setBackgroundColor(Color.parseColor("#E91E63"));
+                            tts.speak("Sorry, we didn't get that, could you try again?",
+                                    TextToSpeech.QUEUE_FLUSH, null, null);
+                        }
                         myRef.child("SYMPTOMS").setValue(resul);
+                        tvSpeak.setText("\""+ resul + "\"");
                     }
                 }
                 break;
@@ -132,9 +157,16 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         }
     }
 
-    private boolean existsKeyword(String text, String s) {
-        Pattern p = Pattern.compile(s);
-        Matcher m = p.matcher(text);
+
+    /**
+     * Searches a string for key words
+     * @param searchString  the string to search in
+     * @param key           the key for searching
+     * @return              whether the key exists in the string
+     */
+    private boolean existsKeyword(String searchString, String key) {
+        Pattern p = Pattern.compile(key);
+        Matcher m = p.matcher(searchString);
         return m.find();
     }
 }
