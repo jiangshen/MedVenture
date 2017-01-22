@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context="pennappsxv.voicer.MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="384dp"
+        app:cardElevation="24dp"
+        android:layout_width="288dp"
+        app:cardBackgroundColor="#424242"
+        tools:layout_editor_absoluteY="128dp"
+        tools:layout_editor_absoluteX="48dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:padding="18dp"
+                android:layout_width="172dp"
+                android:layout_height="172dp"
+                android:id="@+id/speakButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:elevation="48dp"
+                android:background="@drawable/ic_mic"
+                android:textSize="34sp"
+                android:onClick="promptSpeechInput"/>
+
+            <TextView
+                android:text="Begin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="24dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:id="@+id/tv_speak"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
