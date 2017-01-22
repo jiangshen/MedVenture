@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Voicer</string>
     <string name="title_activity_list">listActivity</string>
-    <string name="instructions">What problem are you having?</string>
+    <string name="instructions">Welcome to our app</string>
 </resources>

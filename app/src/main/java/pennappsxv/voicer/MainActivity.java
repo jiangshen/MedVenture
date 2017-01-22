@@ -2,6 +2,7 @@ package pennappsxv.voicer;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.graphics.Color;
 import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import org.apache.commons.lang3.text.WordUtils;
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
     private final int REQ_CODE_SPEECH_INPUT = 1033;
     TextView tvSpeak;
+    TextView tvTitle;
     DatabaseReference myRef;
 
     TextToSpeech tts;
@@ -41,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
 //        Bindings
         tvSpeak = (TextView) findViewById(R.id.tv_speak);
+        tvTitle = (TextView) findViewById(R.id.tv_title);
 
 //        Firebase
         myRef = FirebaseDatabase.getInstance().getReference();
@@ -55,16 +59,19 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         Log.d("Speech", "OnInit - Status ["+status+"]");
         if (status == TextToSpeech.SUCCESS) {
             Log.d("Speech", "Success!");
-            tts.setLanguage(Locale.US);
+            tts.setLanguage(Locale.ENGLISH);
         }
-        tts.speak("Welcome, tap the screen to begin", TextToSpeech.QUEUE_FLUSH, null, null);
+        tts.speak("Welcome, please tap the screen to begin.", TextToSpeech.QUEUE_FLUSH, null,
+                null);
     }
 
     public void promptSpeechInput(View view) {
 
         if (stage < 1) {
-            tts.speak("What problems are you having? Press the screen and speak to the microphone" +
-                    ".", TextToSpeech.QUEUE_FLUSH, null, null);
+            tvTitle.setText("Having any problems?");
+            tvTitle.setBackgroundColor(Color.parseColor("#2196F3"));
+            tts.speak("What problems are you having? Press on the screen and speak to the " +
+                    "microphone.", TextToSpeech.QUEUE_FLUSH, null, null);
             stage++;
         } else {
             Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
@@ -100,14 +107,18 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
                     if (stage == 1) {
                         if (existsKeyword(resul, "problems? with my ")) {
-                            String splitted[] = resul.trim().split("with my");
-                            myRef.child("PROBLEMATIC_BODY_PART").setValue(WordUtils.capitalize(splitted[1].trim()));
+                            String split[] = resul.trim().split("with my");
+                            myRef.child("PROBLEMATIC_BODY_PART").setValue(WordUtils.capitalize(split[1].trim()));
                             stage++;
 
+                            tvTitle.setText("Any symptoms?");
+                            tvTitle.setBackgroundColor(Color.parseColor("#2196F3"));
                             tts.speak("Thank you, now what symptoms are you having?", TextToSpeech.QUEUE_FLUSH, null, null);
 
                         } else {
                             myRef.child("PROBLEMATIC_BODY_PART").setValue("NULL");
+                            tvTitle.setText("Try Again");
+                            tvTitle.setBackgroundColor(Color.parseColor("#E91E63"));
                             tts.speak("Sorry, we didn't get that, could you try again?",
                                     TextToSpeech.QUEUE_FLUSH, null, null);
                         }
