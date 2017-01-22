@@ -51,6 +51,12 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
 //        Firebase
         myRef = FirebaseDatabase.getInstance().getReference();
 
+//        Init
+        myRef.child("SYMPTOMS").setValue("NULL");
+        myRef.child("PROBLEMATIC_BODY_PART").setValue("NULL");
+        myRef.child("RESULTS").setValue("NULL");
+
+
         /* TTS */
         tts = new TextToSpeech(getApplicationContext(), this);
 
@@ -126,6 +132,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                     } else if (stage == 2) {
                         int count = 0;
                         String words = "";
+                        List<String> wordArr = new ArrayList<>();
+
                         for (String s : symDict) {
                             if (existsKeyword(resul, s)) {
                                 count++;

@@ -10,5 +10,14 @@
         sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
         <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-codec-1.10_ce4872e80eba2cc282b3568a40f7b2cad47fe255/classes.dex" />
     </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4876a38418d48606a16ae3c5089d4133fb1b1bd2">
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2072b8168a14f52eed152b96c58a6289be3264e1/classes.dex" />
+    </item>
 
 </items>
