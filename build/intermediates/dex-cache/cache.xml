@@ -3,22 +3,12 @@
 
     <item
         is-multidex="true"
-<<<<<<< HEAD
         jar="/Applications/Android Studio.app/Contents/gradle/m2repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
-        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-codec-1.10_ce4872e80eba2cc282b3568a40f7b2cad47fe255/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jeffreychang/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6c6c702c89bfff3cd9e80b04d668c5e190d588c6">
-        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.5_c881069f655ff92c466fd8e8d415129471cf40ac/classes.dex" />
+        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-codec-1.10_ce4872e80eba2cc282b3568a40f7b2cad47fe255/classes.dex" />
     </item>
 
 </items>
