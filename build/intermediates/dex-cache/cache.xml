@@ -3,282 +3,282 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_dbde6495c034ffffb8dbcbddf6de60944dbe9650/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9cb01c74012a1a6e6f49ff15835402e78139c940/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_815e1c6c7c88b8f18397e7961ca63e103c543449/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_ee4b5f34b297f058c01a2838dd71c998e593174a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_6d70e54a0d3c77758b2cd40745b1bea588e5496c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_55b5a339cb5a3feadc9178670cbb9109dc1821de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_29c8b2422491cb630b0fd5f31f349f2f367092b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_1aefb786453e1255d1b667d3dccd03e3c96a256f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_072e82c161381c50a277044fcded4f81af20d826/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_112731907e4c7e12110c65297daec81294ec7079/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="52d88646e0d42561f409a542c3c945964cf0ad03">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2072b8168a14f52eed152b96c58a6289be3264e1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_5be76919e8661757c61331ad1a59d5fd2bf1be5c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ca840d01e362dae03847b40d20b26f6cc7d7ad0e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_1114110d7b5a3f47e2a4e9b356456c4dc650b032/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta1_f81fab330c3ffdc026b57160d9d24a46975efc94/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_fad1f38191414d8e74400ebbb0423d1cb6bc3459/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_5d945d8a0c6fd352c2abc2e7c41f6d3f4e7d0eae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_ded1e499958fd316c7e6e269693859a3f1b2f8b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_233aa5b4d2b52cc749ef66f97e8690a4987262b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_e5cd7f32d2750135203933b4ecdec4d16d4b58f4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_6498eabf6e0e220b6edca5198b7f89d987bf0bbc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-beta1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="c4ad8321cff5fa475cb39daf387b3cb581aab17f">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta1_0f51a8e62a6b00e50c77601b9f1f5d1c9b5d05f4/classes.dex" />
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-beta1_30b3a23fb3a8b86a6a2477c8a7054863ab968348/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jar="/Users/jeffreychang/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta1/constraint-layout-solver-1.0.0-beta1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_fa01dad89bffae86905c138a49ff04f81f70eccf/classes.dex" />
+        sha1="ac4965ed6786f8d63f1960a996a6be667064cd28">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta1_dbf0308882cec8efd7b5caceb9cdc2b45b4b8c7b/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_c0edc78682d84d4572a2383c494e4c814bfd7d92/classes.dex" />
+        sha1="4863f0966f76503c5ce9098992a81956a7aa2f1a">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7cd26d08391cbd28f2f0b3b184275914f27f4543/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b5422031cac2a2af8f68e4d45e9b214912f1ee76/classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_3d1eb221a7081b764220616bd1b6c14868233f6e/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_5ef466cadf05e7e578ed39187dff3154b451c058/classes.dex" />
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_89842bb4c76a779a5db0572f680f36e1620ed940/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e002d5a4d6660fec8cf68733fb3cdfbb817db71a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_0c4e1467aa99569fce0b72fd3d480866bc9b627e/classes.dex" />
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_4e6e782598a88d69a3dd9efcc5fabb175dbb9000/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_92c0b39e9a324c982273b130137455705d8017dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_9c4637635a153a2e142e212133b9f567265ae924/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_3c0dfc0e877c44a72e107a0c45669fa377ff0f4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_bf2ad8d088efb5d79c3c412e1c489867d611bffa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_9da2f5bd68f8cc16ed2d3b9061e36cf1f0117179/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0b0f5ea7b71e1ec38a8da455d8cdb58faea4ea59">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2a900d76445a80e468386ee197d1e46adc1daacf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_15b4f76acec395ff15d198e50ca252734f0901a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_58156225ef3dbc1d6729a78551b403b87e2e026b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_520e33c22aa7a5c003042ddd0c17ae505e717f3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_705b62c11e15d00b614b851c46d6adf84fa7e6e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_fab6c544ce57cf3a3f13f556c6accfc86cca421a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_28712208621d6316cfb0b138eab4bf795b1a6c0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_ccc164af5b9f8702da6cbc7d8953ba4b890c9c9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_4f2073a1392697203e6d5922428d24532b8b18d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_e26277b9e98fdd22b236a466ccf81378c788bd36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_2ea615b2225804fc99a9e430ba432b5e85f32712/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8980b2af1863347b677c4fc1a9bf9e8b06520509/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_57986fc5e67c140ae024f6e8ccc610722e9d38f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d37a2e4157cd085a13919e6b2ee7fc4f1eb38b0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8c3ca1aa4f14131a2def6a30fa232c1cfe72317c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_df4b509ddbdc17e9961a2dee06b2bd2484c8a2d0/classes.dex" />
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_03af05842c10d68695d0ff3e3e5444c5ff3cc499/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6badd1c54bcd7b7fe34329e2b9dd4cafd8038f7c">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eb3f9ccfa56db0319aed2417ee594201b1916959/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_436d2e076ecb1128954200c37a67718bc12d30cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/jiangshen/Documents/AndroidStudioProjects/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_25e48b8c36f859a9cf9357d08bc952c043966c25/classes.dex" />
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_c1b5f45fd7cd419d75336d236b0bd40396ae0ae0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_170709d2ec9cef3347bfda6bd920eaeb98dabd94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jeffreychang/Voicer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/jeffreychang/Voicer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_0241a931d37036fac76d73510603961a40a7b45d/classes.dex" />
     </item>
 
 </items>
