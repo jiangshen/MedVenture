@@ -6,8 +6,11 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="#303030"
+    android:orientation="vertical"
     tools:context="pennappsxv.voicer.MainActivity">
+
 
     <android.support.v7.widget.CardView
         android:layout_height="384dp"
@@ -16,14 +19,32 @@
         app:cardBackgroundColor="#424242"
         tools:layout_editor_absoluteY="128dp"
         tools:layout_editor_absoluteX="48dp"
+        android:layout_gravity="center"
+
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="333dp"
             android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:text="@string/instructions"
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+
+                android:gravity="center_horizontal"
+                android:textColor="#FFF"
+                android:textSize="10pt"/>
 
             <Button
                 android:padding="18dp"
@@ -48,9 +69,6 @@
                 android:id="@+id/tv_speak"/>
 
         </LinearLayout>
-
-
-
 
 
     </android.support.v7.widget.CardView>

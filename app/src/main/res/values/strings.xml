@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Voicer</string>
+    <string name="instructions">Tell us what problem you\'re having!</string>
 </resources>
