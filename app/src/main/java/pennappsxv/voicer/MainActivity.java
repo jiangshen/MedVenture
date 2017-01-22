@@ -14,6 +14,8 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import org.apache.commons.lang3.text.WordUtils;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -77,7 +79,6 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                         "Error, not supported",
                         Toast.LENGTH_SHORT).show();
             }
-            Log.d("fuck", "here!!");
         }
     }
 
@@ -93,25 +94,25 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                 if (resultCode == RESULT_OK && null != data) {
                     ArrayList<String> result = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
-//                    Log.d("APP", result.get(0));
-
                     String resul = result.get(0);
 
                     tvSpeak.setText("\""+ resul + "\"");
-                    myRef.child("speech_msg").setValue(resul);
 
-                    if (existsKeyword(resul, "problem")) {
-                        if (existsKeyword(resul, "with my")) {
-                            Log.d("APP", "yep have with");
+                    if (stage == 1) {
+                        if (existsKeyword(resul, "problems? with my ")) {
                             String splitted[] = resul.trim().split("with my");
-                            myRef.child("problematic_body_part").setValue(splitted[1].trim());
+                            myRef.child("PROBLEMATIC_BODY_PART").setValue(WordUtils.capitalize(splitted[1].trim()));
+                            stage++;
+
+                            tts.speak("Thank you, now what symptoms are you having?", TextToSpeech.QUEUE_FLUSH, null, null);
+
                         } else {
-                            myRef.child("problematic_body_part").setValue("NULL");
+                            myRef.child("PROBLEMATIC_BODY_PART").setValue("NULL");
+                            tts.speak("Sorry, we didn't get that, could you try again?",
+                                    TextToSpeech.QUEUE_FLUSH, null, null);
                         }
-                        myRef.child("is_problem_phrase").setValue(true);
-                    } else {
-                        myRef.child("is_problem_phrase").setValue(false);
-                        myRef.child("problematic_body_part").setValue("NULL");
+                    } else if (stage == 2) {
+                        myRef.child("SYMPTOMS").setValue(resul);
                     }
                 }
                 break;
