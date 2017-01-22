@@ -26,7 +26,6 @@
             android:gravity="center">
 
             <Button
-
                 android:padding="18dp"
                 android:layout_width="172dp"
                 android:layout_height="172dp"
